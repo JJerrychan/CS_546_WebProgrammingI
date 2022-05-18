@@ -1,0 +1,25 @@
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+html {
+  text-align: center;
+  background-color: gainsboro;
+}
+
+#form {
+  margin: 50px;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover{
+  color: darkkhaki;
+}

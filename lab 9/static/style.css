@@ -1,0 +1,49 @@
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.inputError {
+  border: 3px solid red;
+  background-color: #eee;
+}
+
+.is-prime {
+  color: #00e676;
+}
+
+.not-prime {
+  color: #ff3d00;
+}
+
+html {
+  text-align: center;
+  background-color: gainsboro;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 18px;
+  color: plum;
+}
+
+#attempts {
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#form {
+  margin: 50px;
+}
+
+li {
+  width: fit-content;
+}
+
+#submit {
+  margin: 10px auto;
+  display: block;
+  width: 100px;
+  height: 50px;
+  font: 20px bold;
+}

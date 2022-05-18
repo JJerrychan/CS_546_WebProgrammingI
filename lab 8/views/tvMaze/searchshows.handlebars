@@ -1,0 +1,17 @@
+{{#if notFound}}
+<p class="show-not-found">We're sorry, but no results were found for {{showSearchTerm}}.</p>
+{{else}}
+<h1>{{title}}</h1>
+<h2>keyword: {{showSearchTerm}}</h2>
+
+<section>
+    <ul>
+        {{#each show}}
+        <li>
+            <a href="/show/{{this.id}}">{{this.name}}</a>
+        </li>
+        {{/each}}
+    </ul>
+</section>
+<a href="/">Make another search</a>
+{{/if}}
